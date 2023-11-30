@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  gap: 0;
+}
+
+.palavra-um {
+  font-size: 60px;
+  margin-top: 85px;
+  margin-left: 200px;
+}
+
+.palavra-dois {
+  font-size: 60px;
+  position: relative;
+  float: right;
+  margin-right: 60px;
+  margin-top: -130px;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  gap: 400px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.retangulo {
+  border-radius: 15px;
+  margin: 50px;
+  width: 366px;
+  height: 89px;
+  margin-bottom: 10px;
+  background-color: #D9D9D9;
+  display: flex;
+  align-items: center;
+
+}
+
+.retangulo p {
+  font-size: 48px;
+  margin-left: 20px;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  margin: 40px;
+  margin-left: 180px;
+}
+
+#line {
+  width: 1490px;
+  height: 1px;
+  background: black;
+}
+
+#arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid black;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: all 0.3s ease;
+}
+
+.quadradao {
+  display: none;
+  width: 80vw;
+  height: 90vh;
+  margin: 0 auto;
+  background-color: #D9D9D9;
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.retangule {
+  margin-top: 80px;
+  margin-left: 200px;
+  border-radius: 15px;
+  margin-bottom: 75px;
+  width: 30vw;
+  height: 30vh;
+  background-color: #747474;
+  display: flex;
+  align-items: center;
+}
+
+.retangule p {
+  font-size: 48px;
+  margin-left: 20px;
+  color: #000000;
+}
+
+.direita-texto {
+  margin-right: 200px;
+  border-radius: 15px;
+  margin-bottom: 75px;
+  width: 30vw;
+  height: 30vh;
+  background-color: #747474;
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+  justify-content: end;
+}
+
+.direita-texto p {
+  font-size: 48px;
+  margin-left: 20px;
+  color: #000000;
+}
+
+.retangulo {
+  cursor: pointer;
+}
+
+#nomeg {
+  margin-left: 1360px;
+  margin-bottom: -50px;
+  font-size: 35px;
+}
+
+#nomep {
+  margin-bottom: -80px;
+  font-size: 35px;
+  margin-left: 90px;
+  position: relative;
+  top: 46px; 
+}
+
+#textop {
+  font-size: 20px;
+}
+
+#textog {
+  font-size: 20px;
+  margin-right: 170px;
+}
+
+.caixa-palavra-um {
+  display: none; /* Inicialmente, o modal é ocultado */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: 800px;
+  height: 600px;
+  padding: 20px;
+  border: 3px solid #000;
+}
+
